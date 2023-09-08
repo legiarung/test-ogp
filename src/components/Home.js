@@ -14,14 +14,14 @@ const Home = () => {
         <meta property="og:url" content="https://test-ogp-lime.vercel.app/collection" />
         <meta property="og:title" content="Home" />
         <meta property="og:description" content="Home" />
-        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="og:image" content="https://tpc.googlesyndication.com/simgad/13204678634950233075" />
 
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://test-ogp-lime.vercel.app/collection" />
         <meta property="twitter:title" content="Home" />
         <meta property="twitter:description" content="Home" />
-        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="twitter:image" content="https://tpc.googlesyndication.com/simgad/13204678634950233075" />
       </Helmet>
       <h1>Trang chủ</h1>
       <div>xin chao xin chao xin chao xin chao </div>
