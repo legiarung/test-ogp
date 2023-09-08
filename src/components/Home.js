@@ -5,25 +5,23 @@ import { Helmet } from 'react-helmet-async';
 const Home = () => {
   return (
     <div>
-      
+
       <Helmet>
-        <title>Tiêu đề Trang</title>
-        <meta name="description" content="Mô tả trang cho SEO" />
-        
-        {/* Thẻ meta cho Facebook Open Graph */}
-        <meta property="og:url" content="Home" />
-        <meta property="og:type" content="Home" />
+        <title>Home</title>
+        <meta name="title" content="Home" />
+        <meta name="description" content="Home" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://test-ogp-lime.vercel.app/collection" />
         <meta property="og:title" content="Home" />
         <meta property="og:description" content="Home" />
-        <meta property="og:image" content="https://via.placeholder.com/800x400" />
+        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
 
-        {/* Thẻ meta cho Twitter */}
-        <meta name="twitter:card" content="Home" />
-        <meta name="twitter:title" content="Home" />
-        <meta name="twitter:description" content="Home" />
-        <meta name="twitter:image" content="https://via.placeholder.com/800x400" />
 
-        {/* Thêm các thẻ meta khác tùy chỉnh nếu cần */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://test-ogp-lime.vercel.app/collection" />
+        <meta property="twitter:title" content="Home" />
+        <meta property="twitter:description" content="Home" />
+        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
       </Helmet>
       <h1>Trang chủ</h1>
       <div>xin chao xin chao xin chao xin chao </div>
